@@ -1,3 +1,4 @@
+import { getData } from "./station14.js"
 async function main() {
     const results = await getData();
     const elem = document.getElementById("result");

@@ -1,4 +1,4 @@
-function getData() {
+export function getData() {
     // これから作ろうとしているもので、JavaScriptでフルネームを生成する必要が出てきました。
     // ただ現状持っている情報では、名前と苗字をそれぞれのみしかありません。
     // そのため、JavaScriptで連結させて生成することにしました。
@@ -15,6 +15,7 @@ function buildFullName(data) {
     // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
     const fullName = data.family_name + " " + data.first_name;
     data.full_Name = fullName;
+    return fullName
 }
 
 // 出力が想定される答え
