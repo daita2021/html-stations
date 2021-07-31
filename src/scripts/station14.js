@@ -1,4 +1,4 @@
-export function getData() {
+function getData() {
     // これから作ろうとしているもので、JavaScriptでフルネームを生成する必要が出てきました。
     // ただ現状持っている情報では、名前と苗字をそれぞれのみしかありません。
     // そのため、JavaScriptで連結させて生成することにしました。
